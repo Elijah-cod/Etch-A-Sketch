@@ -36,3 +36,22 @@ h1{
     margin-top: 20px;
 }
 
+@media screen and (max-width: 600px) {
+    h1{
+        text-align: center;
+        order: 1;
+    }
+   .wrapper{
+    display: flex;
+    flex-direction: column;
+   }
+   #container {
+    margin: 20px auto;
+    order: 2;
+   }
+   .buttons {
+    margin-top: 20px;
+    order: 3;
+   }
+}
+
