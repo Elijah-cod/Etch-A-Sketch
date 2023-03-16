@@ -8,6 +8,7 @@ body{
     width: 100vw;
 }
 
+/* Placed the pixels in a grid in order to fix them together */
 #container {
     height: 500px;
     width: 600px;
@@ -35,7 +36,3 @@ h1{
     margin-top: 20px;
 }
 
-.myClass:hover,
-.myClass.hover{
-    background-color: black;
-}
